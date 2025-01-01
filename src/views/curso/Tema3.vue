@@ -307,7 +307,7 @@
                     .col.mb-3.mb-sm-0
                       p.text-small <b>Anexo.</b> Métodos de acumulación de costos
                     .col-sm-auto
-                      a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                      a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")
                         span.text-small Descargar
                         i.fas.fa-arrow-right
           .col-lg-5
