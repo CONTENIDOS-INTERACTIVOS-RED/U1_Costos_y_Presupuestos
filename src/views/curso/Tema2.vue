@@ -9,7 +9,7 @@
       h5 Figura 2. 
       span Clasificación de los costos
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4
+      .col-md-8.col-lg-4
         figure
           img(src="@/assets/curso/tema2/1.svg", data-aos="zoom-in")
         
@@ -21,8 +21,8 @@
 
     TabsC.mb-5
       .tabs-content.border.px-4.p-md-5.py-3(titulo="Costos fijos")
-        .row
-          .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
+        .row.justify-content-center
+          .col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
             h4 Costos fijos
             p Permanecen constantes en total, independientemente del nivel de producción. Varían por unidad, según la cantidad producida. Ejemplo: el alquiler mensual de una fábrica. 
             p.mb-0 Características: 
@@ -31,12 +31,12 @@
             p.mb-0 ● Son constantes en un periodo.
 
         
-          .col-md-6.col-lg-5.col-xl-4.order-1
+          .col-md-8.col-lg-5.col-xl-4.order-1.mb-3
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/tema2/2.png', alt='')
       .tabs-content.border.px-4.p-md-5.py-3(titulo="Costos variables")
-        .row
-          .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
+        .row.justify-content-center
+          .col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
             h4 Costos variables
             p Cambian proporcionalmente, según el nivel de actividad o producción. A mayor producción, mayor será el costo total, y viceversa. Ejemplo: el costo de la materia prima, como madera para sillas.
             p.mb-0 Características: 
@@ -44,7 +44,7 @@
             p.mb-0 ● Fáciles de calcular, según el volumen de producción.
 
         
-          .col-md-6.col-lg-5.col-xl-4.order-1
+          .col-md-8.col-lg-5.col-xl-4.order-1.mb-3
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/tema2/3.png', alt='')
     
@@ -56,8 +56,8 @@
     .bg-full-width.bg-fondo-slider.mb-5
       .p-4.p-md-5
         SlyderA(tipo="b").bg-white
-          .row.align-items-center.p-4.p-md-5
-            .col-lg-5.order-lg-2
+          .row.align-items-center.p-4.p-md-5.justify-content-center
+            .col-md-8.col-lg-5.order-lg-2.mb-3
               figure
                 img(src="@/assets/curso/tema2/4.png")
             .col-lg-7.order-lg-1
@@ -67,8 +67,8 @@
               p.mb-0 ● Fácilmente asignables y medibles. 
               p.mb-0 ● Relacionados directamente con el producto o servicio.
 
-          .row.align-items-center.p-4.p-md-5
-            .col-lg-5.order-lg-2
+          .row.align-items-center.p-4.p-md-5.justify-content-center
+            .col-md-8.col-lg-5.order-lg-2.mb-3
               figure
                 img(src="@/assets/curso/tema2/5.png")
             .col-lg-7.order-lg-1
@@ -78,10 +78,10 @@
               p.mb-0 ● Necesitan procesos de asignación para distribuirlos. 
               p.mb-0 ● No son rastreables a un solo objeto de costo.
       
-    .row.mb-5.bg-color-6.p-4.align-items-center
+    .row.mb-5.bg-color-6.p-4.align-items-center.justify-content-center
       .col-lg.order-2
         p.mb-0 La correcta identificación y clasificación de los costos, según el volumen o su aplicación, es fundamental para la gestión financiera y estratégica de una empresa. Permite una mejor toma de decisiones y una asignación precisa de recursos, asegurando la sostenibilidad y competitividad en el mercado.
-      .col-lg-auto.order-1
+      .col-auto.order-1.mb-3
         figure
           img(src="@/assets/curso/tema2/6.svg", data-aos="zoom-in")
 
@@ -99,44 +99,25 @@
             //- Referencia con enlace 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.revistasice.com/index.php/CICE/article/download/6031/6031" target="_blank" rel="noopener noreferrer") De Castro Emilio Cerdá, F. J. A. L. M. (s/f). Las energías renovables en el ámbito internacional. Revistasice.com. 
+              a(href="https://www.redalyc.org/journal/206/20663246011/html/" target="_blank" rel="noopener noreferrer") Rincón-Soto, C. A., Sánchez-Mayorga, X. & Cardona-Restrepo, L. M. (2019). Clasificación teórica de los costos. Revista EAN, 87, pp. 193-206.
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://natura.org.co/que-es-agricultura-sostenible-y-como-se-relaciona-con-el-monitoreo-climatico/" target="_blank" rel="noopener noreferrer") Natura, F. (2024, junio 6). ¿Qué es agricultura sostenible y cómo se relaciona con el monitoreo climático? Fundación Natura Colombia. 
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/116368?page=39" target="_blank" rel="noopener noreferrer") Cárdenas y Nápoles, R. A. (2016). Costos 1. Instituto Mexicano de Contadores Públicos.  
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.revistaecosistemas.net/index.php/ecosistemas/article/view/614" target="_blank" rel="noopener noreferrer") Artaraz, M. (2002). Teoría de las tres dimensiones de desarrollo sostenible: . Ecosistemas, 11(2). 
+              a(href="https://www.contabilidadfinanciera.com/clasificacion-costos" target="_blank" rel="noopener noreferrer") ContabilidadFinanciera.com. (s.f.). Clasificación de los costos según su comportamiento. 
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/62332?page=170" target="_blank" rel="noopener noreferrer") Fernández García, R. (2013). La dimensión económica del desarrollo sostenible: ( ed.). ECU.
+              a(href="https://mig-now.com/" target="_blank" rel="noopener noreferrer") SAP S/4HANA
 
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274611" target="_blank" rel="noopener noreferrer") De Castro Emilio Cerdá, F. J. A. L. M. (s/f). Las energías renovables en el ámbito internacional. Revistasice.com. 
-            //- Referencia sin enlace 
-            p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span Cerdos criollos colombianos y agricultura sostenible. 
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span De Janeiro, R. (1992). La declaración del Río sobre el Medio Ambiente y el Desarrollo. Río de Janeiro República Federativa del Brasil., aprobada en Estocolmo el, 16.
 
             //- Referencia de youtube 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://youtu.be/hlpTZbikazw?si=XGBJEV3L-9pTa-Gc" target="_blank" rel="noopener noreferrer") Empresas innovadoras.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://youtu.be/Kh5lpqxTw5M?si=NN1qB14TbGN9TxiU" target="_blank" rel="noopener noreferrer") Google, Microsoft y tesla, el verdadero rey de la inteligencia artificial.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") Innovación y sostenibilidad.
+              a(href="https://youtu.be/2DTiQstayrQ?si=-hElVFSXsT8vENCk" target="_blank" rel="noopener noreferrer") Jhoshimar Marca. (2022). Elementos del costo de producción.
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure
               img(src='@/assets/componentes/material-complementario.svg', alt='')

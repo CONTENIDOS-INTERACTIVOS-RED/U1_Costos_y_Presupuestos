@@ -3,8 +3,8 @@
   BannerInterno(:subTitulo="'3. Métodos básicos de acumulación de costos'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    .row.mb-5
-      .col-lg-5
+    .row.mb-5.justify-content-center
+      .col-md-8.col-lg-5.mb-3
         figure
           img(src="@/assets/curso/tema3/1.png", data-aos="zoom-in")
       .col-lg-7.bg-color-4.p-5
@@ -60,7 +60,7 @@
           h5 Tabla 3. 
           span Costos de actividades y <em>cost drivers</em>
         .row.mb-5
-          .col-lg-11
+          .col-xl-11
             .tabla-a.color-terciario.mb-5 
               table
                 thead
@@ -127,7 +127,7 @@
           span Distribución total de costos por producto
         
         .row 
-          .col-lg-8
+          .col-xl-8
             .tabla-a.color-terciario.mb-5 
               table
                 thead
@@ -188,7 +188,7 @@
           h5 Tabla 5. 
           span Costos directos
         .row.mb-5
-          .col-lg-7
+          .col-xl-7
             .tabla-a.color-terciario.mb-5 
               table
                 thead
@@ -234,7 +234,7 @@
           span Costos indirectos
         
         .row 
-          .col-lg-10
+          .col-xl-10
             .tabla-a.color-terciario.mb-5 
               table
                 thead
@@ -294,13 +294,13 @@
     .bg-full-width.bg-color-9
       .px-4.px-md-5.pb-md-3.pt-md-5
         .row.mb-5.align-items-center
-          .col-lg-7
+          .col-lg-7.mb-3
             h2 Métodos de acumulación de costos
             p Se invita a analizar los diferentes <b>métodos de acumulación de costos</b>, herramientas esenciales para la gestión eficiente de recursos en proyectos o empresas. El documento expone cómo el costeo por procesos, el costeo variable, el costeo absorbente y el costeo estándar, ofrecen enfoques adaptados a distintas necesidades de producción y control financiero. A través de ejemplos prácticos, se presentan las ventajas, desventajas y su impacto en la planificación empresarial, facilitando su comprensión y aplicación en contextos reales. Este análisis permitirá profundizar en las bases del control de costos y la optimización de recursos.
 
             .bg-color-white.shadow-soft.py-3.px-lg-4
               .row.justify-content-around.align-items-center
-                .col-md-auto
+                .col-auto
                   img(src="@/assets/template/bg-icono-pdf.svg", style="width: 45px;")
                 .col
                   .row.justify-content-between.align-items-center
@@ -325,45 +325,30 @@
             //- Referencia con enlace 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.revistasice.com/index.php/CICE/article/download/6031/6031" target="_blank" rel="noopener noreferrer") De Castro Emilio Cerdá, F. J. A. L. M. (s/f). Las energías renovables en el ámbito internacional. Revistasice.com. 
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/116368?page=39" target="_blank" rel="noopener noreferrer") Cárdenas y Nápoles, R. A. (2016). Costos 1. Instituto Mexicano de Contadores Públicos. 
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://natura.org.co/que-es-agricultura-sostenible-y-como-se-relaciona-con-el-monitoreo-climatico/" target="_blank" rel="noopener noreferrer") Natura, F. (2024, junio 6). ¿Qué es agricultura sostenible y cómo se relaciona con el monitoreo climático? Fundación Natura Colombia. 
+              a(href="https://www.redalyc.org/articulo.oa?id=28011651007 " target="_blank" rel="noopener noreferrer") Backer, J., Horngren, C. T., Foster, G. & Datar, S. M. (2004). Diseño de un sistema de acumulación de costos para la micro, pequeña y mediana industria panadera. Redalyc.  
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.revistaecosistemas.net/index.php/ecosistemas/article/view/614" target="_blank" rel="noopener noreferrer") Artaraz, M. (2002). Teoría de las tres dimensiones de desarrollo sostenible: . Ecosistemas, 11(2). 
-
+              a(href="https://espanol.libretexts.org/Bookshelves/Contabilidad/Costos " target="_blank" rel="noopener noreferrer") LibreTexts Español. (s.f.). El estado de costo de los bienes manufacturados. 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/62332?page=170" target="_blank" rel="noopener noreferrer") Fernández García, R. (2013). La dimensión económica del desarrollo sostenible: ( ed.). ECU.
+              a(href="https://www.odoo.com/es_ES " target="_blank" rel="noopener noreferrer") Odoo. 
 
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274611" target="_blank" rel="noopener noreferrer") De Castro Emilio Cerdá, F. J. A. L. M. (s/f). Las energías renovables en el ámbito internacional. Revistasice.com. 
-
-            //- Referencia sin enlace 
-            p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span Cerdos criollos colombianos y agricultura sostenible. 
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span De Janeiro, R. (1992). La declaración del Río sobre el Medio Ambiente y el Desarrollo. Río de Janeiro República Federativa del Brasil., aprobada en Estocolmo el, 16.
-
+            
+           
             //- Referencia de youtube 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://youtu.be/hlpTZbikazw?si=XGBJEV3L-9pTa-Gc" target="_blank" rel="noopener noreferrer") Empresas innovadoras.
+              a(href="https://youtu.be/sK2kZwwUutM?si=tPvatBUrLbMk7r96 " target="_blank" rel="noopener noreferrer") Accounting Instruction, Help, & How To (Financial & Managerial). (2024). Clasificaciones de costos 20 Contabilidad Gerencial.
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://youtu.be/Kh5lpqxTw5M?si=NN1qB14TbGN9TxiU" target="_blank" rel="noopener noreferrer") Google, Microsoft y tesla, el verdadero rey de la inteligencia artificial.
+              a(href="https://youtu.be/J208yG2OZrs?si=aV-PPaOEy-yLaICS " target="_blank" rel="noopener noreferrer") Universidad Continental - Modalidad a Distancia. (2019). Sistemas de costeo.
 
-            p.d-flex.my-4
-              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") Innovación y sostenibilidad.
               
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure

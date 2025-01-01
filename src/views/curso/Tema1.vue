@@ -23,11 +23,11 @@
     .bg-full-width.bg-fondo-1
       .px-4.px-md-5.pb-md-3
         .row.justify-content-center.mb-5
-          .col-11.col-md-4.col-xl-5.pe-xl-8
+          .col-11.col-md-8.col-lg-4.col-xl-5.pe-xl-8
             figure.mb-4.mb-md-0
               img(src='@/assets/curso/tema1/2.png', alt='Texto que describa la imagen')
-          .col-11.col-md-8.col-xl-7
-            SlyderF(columnas="col-12 col-lg-6")
+          .col-11.col-lg-8.col-xl-7
+            SlyderF(columnas="col-12 col-md-6")
               .row.py-4.px-3.h-100
                 .col-10.offset-1.offset-md-0.col-md-12.shadow-app.p-3.py-md-5.px-md-4.bg-color-white
                   img(src='@/assets/curso/tema1/3.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
@@ -49,7 +49,7 @@
 
     .bg-color-3.mb-5(data-aos="fade-up")
       .row.justify-content-center.align-items-center
-        .col-lg.px-5
+        .col-lg.px-5.mb-3
           p.mb-0 ●	La obtención de materias primas.
           p.mb-0 ●	La transformación en productos terminados.
           p.mb-0 ●	El almacenamiento y entrega al cliente final.
@@ -89,8 +89,8 @@
 
     p.mb-5 Por otro lado, el Sector Real agrupa diferentes tipos de empresas, destacándose:
 
-    .row.align-items-start.mb-5
-      .col-lg-4
+    .row.align-items-start.mb-5.justify-content-center
+      .col-md-8.col-lg-4
         figure
           img(src="@/assets/curso/tema1/11.png", alt="").mb-4.mb-lg-0
       .col-lg-8
@@ -143,20 +143,20 @@
     
     h2 Cálculo de la utilidad bruta
 
-    .row.mb-5.align-items-center
-      .col-lg-3
+    .row.mb-5.align-items-center.justify-content-center
+      .col-md-8.col-lg-3
         figure
           img(src="@/assets/curso/tema1/12.png", alt="").mb-4.mb-lg-0
       .col-lg-9
         p En la contabilidad, las empresas comerciales e industriales, presentan diferencias significativas en la forma de calcular sus costos y manejar sus inventarios. Estas particularidades reflejan las actividades propias de cada tipo de organización y su enfoque operativo. A continuación, se presentan los aspectos principales:
-        .row.bg-color-1.p-4.align-items-center
-          .col-lg
+        .row.bg-color-1.p-4.align-items-center.justify-content-center
+          .col-lg.mb-3
             p.text-bold.mb-0 ●	Empresas comerciales:
             p.mb-0 Ventas Netas (VN) – Costo de Mercancía Vendida (CMV).
             p Fórmula del CMV: Inventario Inicial + Compras Netas - Inventario Final.
             p.text-bold.mb-0 ●	Empresas industriales:
             p.mb-0 Ventas Netas (VN) – Costo de Productos Manufacturados y Vendidos (CPMV).
-          .col-lg-auto
+          .col-auto
             figure
               img(src="@/assets/curso/tema1/13.svg", alt="").mb-4.mb-lg-0
     
@@ -178,7 +178,7 @@
     .bg-full-width.bg-color-2
       .px-4.px-md-5.pb-md-3.pt-md-5
         .row.mb-5.align-items-center
-          .col-lg-5
+          .col-lg-5.mb-3
             figure
               img(src='@/assets/curso/tema1/15.png', alt='')
           .col-lg-7
@@ -186,7 +186,7 @@
             p Se invita a explorar <b>ejemplos prácticos de costeo en la producción y comercialización</b>, ilustrando cómo se calculan los costos totales en distintos escenarios. En la producción de un pastel, se destacan los costos de materia prima, mano de obra y costos indirectos de fabricación, ofreciendo un panorama completo del proceso. Asimismo, en la comercialización de una camisa, se analizan factores como el costo de compra, transporte, etiquetado, publicidad y almacenamiento. Estos ejemplos brindan herramientas útiles para comprender y aplicar estrategias de costeo en diversas actividades económicas.
             .bg-color-white.shadow-soft.py-3.px-lg-4
               .row.justify-content-around.align-items-center
-                .col-md-auto
+                .col-auto
                   img(src="@/assets/template/bg-icono-pdf.svg", style="width: 45px;")
                 .col
                   .row.justify-content-between.align-items-center
@@ -202,8 +202,8 @@
     
     p.mb-5 Entre los objetivos fundamentales que se persiguen con la gestión de costos, se destacan los siguientes:
 
-    .row.align-items-start.mb-5
-      .col-lg-4.order-2
+    .row.align-items-start.mb-5.justify-content-center
+      .col.md-8.col-lg-4.order-2
         figure
           img(src="@/assets/curso/tema1/16.png", alt="").mb-4.mb-lg-0
       .col-lg-8.order-1
@@ -263,21 +263,21 @@
 
     TabsC.mb-5
       .tabs-content.border.px-4.p-md-5.py-3(titulo="Materiales directos")
-        .row
-          .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
+        .row.justify-content-center
+          .col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
             h4 Materiales directos
             p Son aquellos que forman parte esencial y visible del producto final. Estos materiales se identifican fácilmente, en cada unidad fabricada. Ejemplo: el cuero empleado para fabricar sandalias.
         
-          .col-md-6.col-lg-5.col-xl-4.order-1
+          .col-md-8.col-lg-5.col-xl-4.order-1.mb-3
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/tema1/20.png', alt='')
       .tabs-content.border.px-4.p-md-5.py-3(titulo="Materiales indirectos")
-        .row
-          .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
+        .row.justify-content-center
+          .col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
             h4 Materiales indirectos
             p Son materiales utilizados en el proceso de producción, pero cuyo costo es difícil de asignar a cada unidad específica o es tan bajo que no justifica su clasificación como material directo. Ejemplo: el pegamento usado en la fabricación de sandalias de cuero.
         
-          .col-md-6.col-lg-5.col-xl-4.order-1
+          .col-md-8.col-lg-5.col-xl-4.order-1.mb-3
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/tema1/21.png', alt='')
 
@@ -289,15 +289,15 @@
     .bg-full-width.bg-fondo-slider.mb-5
       .p-4.p-md-5
         SlyderA(tipo="b").bg-white
-          .row.align-items-center.p-4.p-md-5
-            .col-lg-5.order-lg-2
+          .row.align-items-center.p-4.p-md-5.justify-content-center
+            .col-md-8.col-lg-5.order-lg-2.mb-3
               figure
                 img(src="@/assets/curso/tema1/22.png")
             .col-lg-7.order-lg-1
               h5 Mano de obra directa
               p Incluye las actividades realizadas por los trabajadores involucrados directamente en el proceso de transformación del producto. Ejemplo: el salario pagado a la persona que corta el cuero, en la fabricación de sandalias.
-          .row.align-items-center.p-4.p-md-5
-            .col-lg-5.order-lg-2
+          .row.align-items-center.p-4.p-md-5.justify-content-center
+            .col-md-8.col-lg-5.order-lg-2.mb-3
               figure
                 img(src="@/assets/curso/tema1/23.png")
             .col-lg-7.order-lg-1
@@ -310,8 +310,8 @@
 
     p.text-bold Ejemplos de costos indirectos:
 
-    .row.align-items-start.mb-5
-      .col-lg-4
+    .row.align-items-start.mb-5.justify-content-center
+      .col-md-8.col-lg-4
         figure
           img(src="@/assets/curso/tema1/24.png", alt="").mb-4.mb-lg-0
       .col-lg-8
@@ -407,7 +407,7 @@
       h5 Figura 1. 
       span Costos y gastos operacionales
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4
+      .col-md-8.col-lg-4
         figure
           img(src="@/assets/curso/tema1/31.svg", data-aos="zoom-in")
         figcaption.mt-2.text-center.mb-4 Nota.  Tomado y adaptado de Vásquez Rojas (2021), Costos y Presupuestos para financieros junior.
@@ -416,10 +416,10 @@
     #t_1_6.titulo-segundo(data-aos="flip-up").mt-5
       h2 #[span 1.6] Importancia de los costos en las organizaciones
 
-    .row.mb-5.bg-color-6.p-4
-      .col-lg
+    .row.mb-5.bg-color-6.p-4.justify-content-center
+      .col-lg.mb-3
         p.mb-0 La estimación precisa de los costos, es crucial para la gestión eficiente de cualquier organización, pues afecta directamente la rentabilidad, competitividad y sostenibilidad. Los costos son la base para tomar decisiones estratégicas, planificar presupuestos, evaluar el desempeño operativo y garantizar el cumplimiento normativo. A continuación, se detallan sus implicaciones clave mediante una combinación de texto, ítems y tablas:
-      .col-lg-auto
+      .col-auto
         figure
           img(src="@/assets/curso/tema1/32.svg", data-aos="zoom-in")
 
@@ -449,17 +449,17 @@
     h2 Planeación y presupuestación
 
     .row.mb-5.align-items-center
-      .col-lg-3
+      .col-lg-3.mb-3
         figure
           img(src="@/assets/curso/tema1/34.png", data-aos="zoom-in")
       .col-lg-9
         p Una correcta estimación de costos, permite diseñar presupuestos realistas, asignar recursos óptimamente y evitar desperdicios. Los costos históricos se utilizan como base para prever escenarios futuros, ayudando a trazar metas estratégicas y operativas.
-        .row.bg-color-1.p-4
-          .col-lg
+        .row.bg-color-1.p-4.justify-content-center
+          .col-lg.mb-3
             p.mb-0 ●	Diseñar presupuestos que aseguren la disponibilidad de los recursos.
             p.mb-0 ●	Evitar el desperdicio mediante límites de gasto, claramente definidos.
             p.mb-0 ●	Anticipar necesidades futuras con base en costos históricos.
-          .col-lg-auto
+          .col-auto
             figure
               img(src="@/assets/curso/tema1/35.svg", data-aos="zoom-in")
     
@@ -535,44 +535,28 @@
             //- Referencia con enlace 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.revistasice.com/index.php/CICE/article/download/6031/6031" target="_blank" rel="noopener noreferrer") De Castro Emilio Cerdá, F. J. A. L. M. (s/f). Las energías renovables en el ámbito internacional. Revistasice.com. 
+              a(href="https://www.redalyc.org/pdf/280/28011681007.pdf " target="_blank" rel="noopener noreferrer") Polimeni, R. S., Hansen, D. R. & Mowen, M. M. (2003). Gestión de costos de producción en el sector metalmecánico de la región zuliana. Redalyc. 
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://natura.org.co/que-es-agricultura-sostenible-y-como-se-relaciona-con-el-monitoreo-climatico/" target="_blank" rel="noopener noreferrer") Natura, F. (2024, junio 6). ¿Qué es agricultura sostenible y cómo se relaciona con el monitoreo climático? Fundación Natura Colombia. 
+              a(href="https://www.redalyc.org/journal/6219/621977181004/html/ " target="_blank" rel="noopener noreferrer") Zegarra Quesada, G. M. (2023). Influencia de la gestión de costos en la toma de decisiones en las Mypes. Revista de Investigación en Contabilidad y Administración. Universidad Nacional Mayor de San Marcos. 
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.revistaecosistemas.net/index.php/ecosistemas/article/view/614" target="_blank" rel="noopener noreferrer") Artaraz, M. (2002). Teoría de las tres dimensiones de desarrollo sostenible: . Ecosistemas, 11(2). 
+              a(href="https://www.gerencie.com/clasificacion-de-los-costos.html#google_vignette" target="_blank" rel="noopener noreferrer") Gerencie.com. (s.f.). ¿Qué son los costos y cómo se clasifican?.  
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/62332?page=170" target="_blank" rel="noopener noreferrer") Fernández García, R. (2013). La dimensión económica del desarrollo sostenible: ( ed.). ECU.
+              a(href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer") ChatGPT. 
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274611" target="_blank" rel="noopener noreferrer") De Castro Emilio Cerdá, F. J. A. L. M. (s/f). Las energías renovables en el ámbito internacional. Revistasice.com. 
-            //- Referencia sin enlace 
-            p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span Cerdos criollos colombianos y agricultura sostenible. 
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span De Janeiro, R. (1992). La declaración del Río sobre el Medio Ambiente y el Desarrollo. Río de Janeiro República Federativa del Brasil., aprobada en Estocolmo el, 16.
-
+              a(href="https://app.powerbi.com/ " target="_blank" rel="noopener noreferrer") Power BI. 
+            
             //- Referencia de youtube 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://youtu.be/hlpTZbikazw?si=XGBJEV3L-9pTa-Gc" target="_blank" rel="noopener noreferrer") Empresas innovadoras.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://youtu.be/Kh5lpqxTw5M?si=NN1qB14TbGN9TxiU" target="_blank" rel="noopener noreferrer") Google, Microsoft y tesla, el verdadero rey de la inteligencia artificial.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") Innovación y sostenibilidad.
+              a(href="https://youtu.be/2PiXMCD9CU4?si=CvkYDYzShtBdQ6ma " target="_blank" rel="noopener noreferrer") Escuela de Emprendimiento y Negocios. (2021). ¿Qué son los costos?. 
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure

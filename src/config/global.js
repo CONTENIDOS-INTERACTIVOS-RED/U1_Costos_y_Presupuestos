@@ -15,7 +15,7 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: '1.	Concepto de costos y su importancia en las organizaciones',
+        titulo: 'Concepto de costos y su importancia en las organizaciones',
         desarrolloContenidos: true,
         subMenu: [
           {
