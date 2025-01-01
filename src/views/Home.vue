@@ -20,7 +20,7 @@
           //- Columna derecha con información
           .col-xl-6.info-section
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
-              p.home-main-title Costos y presupuestos 
+              p.home-main-title UNIDAD {{ globalData.numeroUnidad }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
               p.descripcion.mb-4 La gestión de costos es esencial para el éxito de las organizaciones, dado que permite optimizar recursos, establecer precios competitivos y garantizar la sostenibilidad. Los costos se clasifican, según su relación con la producción (fijos, variables, directos e indirectos) y su correcto análisis facilita decisiones estratégicas, control de inventarios y evaluación de desempeño. Métodos como el costeo ABC o por órdenes de trabajo, asignan costos de forma precisa, según actividades o pedidos específicos. Su adecuada administración fortalece la competitividad, rentabilidad y el cumplimiento normativo de las empresas. 
               
