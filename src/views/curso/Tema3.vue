@@ -1,194 +1,319 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'3. Ética en la innovación y desarrollo tecnológico '")
+  BannerInterno(:subTitulo="'3. Métodos básicos de acumulación de costos'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
     .row.mb-5
       .col-lg-5
         figure
           img(src="@/assets/curso/tema3/1.png", data-aos="zoom-in")
-      .col-lg-7
-        p(data-aos="fade-left").mb-4 La ética en la innovación y el desarrollo tecnológico, es un área que aborda los dilemas y las responsabilidades asociadas con el impacto de las tecnologías en la sociedad, el medio ambiente y las personas. A medida que las empresas y las sociedades avanzan hacia un futuro más digital y tecnológico, la necesidad de una innovación ética se hace cada vez más necesaria. Las tecnologías tienen el potencial de generar beneficios significativos, pero también pueden conllevar riesgos si no se desarrollan o implementan, de manera responsable. 
-
-        p(data-aos="fade-left") En este contexto, surgen varias cuestiones éticas que deben ser consideradas, como la sostenibilidad de las innovaciones, la privacidad y la seguridad de los datos, y los desafíos futuros que se derivan del desarrollo tecnológico.
+      .col-lg-7.bg-color-4.p-5
+        p(data-aos="fade-left").mb-0 Los <b>métodos básicos de acumulación de costos</b>, se refiere a los procedimientos y técnicas utilizadas por las empresas para asignar o distribuir los costos a los productos o servicios que producen. Estos métodos son necesarios en la contabilidad de costos, dado que permiten determinar el costo de producción de cada unidad, ayudando a tomar decisiones sobre precios, márgenes de ganancia y eficiencia operativa. Los métodos más comunes incluyen:
 
 
     #t_3_1.titulo-segundo(data-aos="flip-up")
-      h2 #[span 3.1] Innovación sostenible
+      h2 #[span 3.1] Costeo ABC (<em>Activity Base Costing</em>)
 
-    .row.mb-5
-      .col-lg-7
-        p(data-aos="fade-left").mb-4 La innovación sostenible implica el desarrollo de nuevas tecnologías, productos o procesos que no solo sean rentables y eficientes, sino que también respeten el medio ambiente y contribuyan al bienestar social. 
+    p.mb-5 El Costeo Basado en Actividades o ABC (<em>Activity-Based Costing</em>), es un método de acumulación de costos que asigna los costos indirectos a los productos y servicios, en función de las actividades que generan esos costos. A diferencia de otros métodos tradicionales de costeo, que asignan los costos indirectos de manera general o, según volumen, el ABC se enfoca en identificar y asignar los costos a las actividades que realmente consumen recursos dentro de la empresa.
 
-        .bg-color-1.p-4(data-aos="fade-left").mb-4
-          p(data-aos="fade-left").mb-0 Esta forma de innovación busca resolver problemas globales como el cambio climático, la escasez de recursos y la desigualdad social, promoviendo soluciones que sean viables tanto a corto como a largo plazo.
+    .titulo-figura.mb-4
+      h5 Tabla 2. 
+      span Características, ventajas y desventajas de los costos ABC.
 
-        p(data-aos="fade-left") Para que la innovación sea sostenible, debe basarse en los siguientes principios:
+    .tabla-a.color-terciario.mb-5 
+      table
+        thead
+          tr
+            th.bg-color-5.text-center Características
+            th.bg-color-5.text-center Ventajas
+            th.bg-color-5.text-center Desventajas
+        tbody
+          tr.bg-color-6
+            td <b>Identificación de actividades</b>: en primer lugar, se identifican todas las actividades realizadas en la empresa, las cuales generan costos, como la preparación de materiales, la inspección de calidad, la distribución, entre otras.
+            td <b>Mayor precisión en la asignación de costos:</b> el costeo ABC, ayuda en la asignación de los costos indirectos, de manera más precisa, porque se basa en las actividades que realmente generan el costo.
+            td <b>Complejidad:</b> requiere un análisis detallado de las actividades y un sistema de medición que puede ser más complejo y costoso de implementar.
+            
+          tr.bg-color-6
+            td <b>Asignación de costos a las actividades:</b> luego, los costos indirectos (como la electricidad, la depreciación de equipos, etc.), se asignan a cada una de estas actividades, en función de su uso de recursos.
+            td <b>Mejor toma de decisiones:</b> al tener una visión más clara de qué actividades son más costosas, la empresa puede identificar áreas de mejora y optimizar sus procesos.
+            td <b>Tiempo y recursos:</b> es más costoso y consume más tiempo que los métodos tradicionales de asignación de costos.
+           
+          tr.bg-color-6
+            td <b>Determinación de los costos de las actividades:</b> para cada actividad identificada, se mide el costo asociado, generalmente mediante cost drivers (factores que impulsan el costo de la actividad). Esto puede ser la cantidad de horas de mano de obra, la cantidad de unidades producidas, el número de órdenes de compra, etc.
+            td <b>Claridad en la rentabilidad de productos o servicios:</b> permite identificar qué productos o servicios son más rentables y cuáles son menos rentables, lo que puede influir en decisiones sobre precios o discontinuación de productos.
+            td 
+             
+          tr.bg-color-6
+            td <b>Asignación a los productos:</b> finalmente, los costos de cada actividad se distribuyen entre los productos o servicios, según el nivel de actividad que cada uno consuma.
+            td 
+            td 
+    
+    p.mb-5 A través de un ejemplo práctico, se ilustrará cómo aplicar el costeo ABC, facilitando la comprensión de su impacto en la toma de decisiones y en la rentabilidad empresarial.
 
-      .col-lg-5
-        figure
-          img(src="@/assets/curso/tema3/2.png", data-aos="zoom-in")
+    .bg-full-width.bg-color-2
+      .px-4.px-md-5.pb-md-3.pt-md-5
 
+        h2 Ejemplo de asignación de costos ABC
+        p La empresa fabrica dos productos: <b>A y B</b>, y asigna costos, basados en dos actividades principales: <b>inspección y empaquetado</b>.
 
-    .bg-full-width.bg-color-6.mb-5
-      .p-4.p-md-5
-        SlyderA(tipo="b").bg-white
-          .row.align-items-center.p-4.p-md-5
-            .col-lg-5
-              figure
-                img(src="@/assets/curso/tema3/slider-1.png")
-            .col-lg-7
-              h5 Responsabilidad ambiental
-              p Las innovaciones deben ser diseñadas para minimizar su impacto ambiental. Esto incluye la reducción de la huella de carbono, el uso de materiales reciclables, la eficiencia energética y la minimización de residuos. Un ejemplo claro es la transición hacia energías renovables, como la solar y la eólica, o la implementación de economías circulares que busquen maximizar el uso de recursos y evitar el desperdicio.
-          .row.align-items-center.p-4.p-md-5
-            .col-lg-5
-              figure
-                img(src="@/assets/curso/tema3/slider-2.png")
-            .col-lg-7
-              h5 Equidad social
-              p La innovación debe considerar sus implicaciones sociales. Las nuevas tecnologías deben ser accesibles y beneficiar a todas las capas de la sociedad, especialmente a las comunidades vulnerables que pueden verse desproporcionadamente afectadas, por el cambio tecnológico. Esto implica pensar en la inclusión digital y en cómo las innovaciones pueden mejorar la calidad de vida de las personas.
-          .row.align-items-center.p-4.p-md-5
-            .col-lg-5
-              figure
-                img(src="@/assets/curso/tema3/slider-3.png")
-            .col-lg-7
-              h5 Viabilidad económica a largo plazo
-              p La innovación no puede basarse únicamente en la rentabilidad inmediata. Debe ser viable a largo plazo, asegurando que las soluciones propuestas sean sostenibles económicamente y no generen un agotamiento de recursos o un daño económico posterior.
+        .titulo-figura.mb-4
+          h5 Tabla 3. 
+          span Costos de actividades y <em>cost drivers</em>
+        .row.mb-5
+          .col-lg-11
+            .tabla-a.color-terciario.mb-5 
+              table
+                thead
+                  tr
+                    th.bg-color-5 Actividad
+                    th.bg-color-5 Costo total ($)
+                    th.bg-color-5 <em>Cost Driver</em>
+                    th.bg-color-5 Detalle
+                tbody
+                  tr.bg-color-6
+                    td Inspección
+                    td $5,000
+                    td 1 inspección cada 100 unidades
+                    td 15 inspecciones (5 para A y 10 para B)
+                    
+                  tr.bg-color-6
+                    td Empaque
+                    td $3,000
+                    td 1 lote por cada 200 unidades
+                    td 8 lotes (3 para A y 5 para B)
 
-    #t_3_2.titulo-segundo(data-aos="flip-up")
-      h2 #[span 3.2] Innovación sostenible
+        h2 Cálculo de costos por actividad
 
-    p(data-aos="fade-left").mb-4 Las tecnologías sostenibles se encuentran en auge en la innovación, con avances en áreas como:
-
-    div.row.justify-content-center.align-items-stretch.mb-5
-      div.col-lg-4.mb-4(data-aos="zoom-in-up")
-        div.bg-color-white.box-shadow.px-4.py-5.h-100
-          img.mx-auto.d-block.mb-4(
-            src="@/assets/curso/tema3/3.svg"
-            alt=""
-            style="width: 90px"
-          )
-          h4.text-center Tecnologías limpias y energías renovables
-          p.mb-0.text-center Innovaciones en energía solar, eólica, biocombustibles y almacenamiento de energía que permiten una transición hacia fuentes de energía más limpias y menos dependientes de los combustibles fósiles.
-      
-      div.col-lg-4.mb-4(data-aos="zoom-in-up")
-        div.bg-color-white.box-shadow.px-4.py-5.h-100
-          img.mx-auto.d-block.mb-4(
-            src="@/assets/curso/tema3/4.svg"
-            alt=""
-            style="width: 90px"
-          )
-          h4.text-center Tecnologías verdes en la industria
-          p.mb-0.text-center Desde la fabricación 3D que permite la creación de productos más eficientes con menos desperdicio de material, hasta los procesos de producción sostenible que reducen el uso de recursos no renovables.
-      
-      div.col-lg-4.mb-4(data-aos="zoom-in-up")
-        div.bg-color-white.box-shadow.px-4.py-5.h-100
-          img.mx-auto.d-block.mb-4(
-            src="@/assets/curso/tema3/5.svg"
-            alt=""
-            style="width: 90px"
-          )
-          h4.text-center Movilidad sostenible
-          p.mb-0.text-center La innovación en vehículos eléctricos, sistemas de transporte público más ecológicos, y el fomento de infraestructuras de transporte compartido son claves para reducir las emisiones de carbono en las ciudades.
-
-
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10
-        .bg-color-1.p-4(data-aos="fade-left").mb-4
-          p(data-aos="fade-left").mb-0 Estas innovaciones requieren un enfoque ético, que considere no solo la viabilidad técnica, sino también sus impactos a largo plazo en la sociedad y el planeta.
-
-
-    #t_3_3.titulo-segundo(data-aos="flip-up")
-      h2 #[span 3.3] Privacidad y seguridad de datos
-
-    p(data-aos="fade-left").mb-4 El desarrollo de la tecnología ha traído consigo una creciente preocupación por la privacidad y la seguridad de los datos. A medida que las empresas y gobiernos recogen, almacenan y procesan grandes cantidades de información personal, la ética de la gestión de datos se convierte en una cuestión  evidente.   
-
-    p(data-aos="fade-left").mb-4 Ahora, los desafíos éticos en la privacidad de los datos, son:
-
-    .row.align-items-center.mb-5
-      .col-lg-7
-        AcordionA(tipo="b")
-          .div(titulo="Recopilación y uso de datos personales")
-            p El uso masivo de datos personales, plantea cuestiones sobre el consentimiento, la transparencia y la protección de la privacidad. Muchas veces, las personas no son conscientes de la cantidad de información que están compartiendo con empresas o plataformas digitales, ni de los riesgos asociados al uso de esos datos.
-
-          .div(titulo="Vulnerabilidad a fugas de información")
-            p A medida que la digitalización avanza, los riesgos de brechas de seguridad aumentan, poniendo en peligro la información sensible de individuos y organizaciones. Los recientes escándalos de filtraciones de datos han subrayado la necesidad urgente de normativas estrictas sobre la protección de datos.
-
-          .div(titulo="Derechos de los usuarios")
-            p Los usuarios deben tener el derecho de controlar sus propios datos, incluyendo la capacidad de acceso, modificación, eliminación y portabilidad de sus datos. La ética en el manejo de datos debe garantizar que las empresas no abusen del poder que tienen sobre la información personal.
-      .col-lg-5
-        figure
-          img(src="@/assets/curso/tema3/6.png", alt="").mt-4.mt-lg-0
-
-
-    .row.align-items-center.mb-5
-      .col-lg-5
-        figure
-          img(src="@/assets/curso/tema3/7.png", alt="").mt-4.mt-lg-0
-      .col-lg-7
-        p(data-aos="fade-left").mb-4 Las empresas deben adoptar prácticas responsables para garantizar la seguridad de los datos. Entre las principales acciones éticas que las empresas deben tomar se incluyen:
-
-        AcordionA(tipo="b")
-          .div(titulo="Transparencia en la recopilación y uso de datos")
-            p Las empresas deben ser claras y transparentes sobre cómo recogen, almacenan y usan los datos personales de los usuarios. Esto incluye informar a los usuarios sobre los riesgos asociados y obtener su consentimiento explícito, para el uso de su información.
-
-          .div(titulo="Fortalecimiento de la ciberseguridad")
-            p A medida que las amenazas digitales crecen, las empresas deben implementar medidas de seguridad avanzadas, para proteger la información de los usuarios, incluidas técnicas como el cifrado de datos, entre otras.
-
-          .div(titulo="Cumplimiento con regulaciones internacionales")
-            p El Reglamento General de Protección de Datos (GDPR) en Europa y otras normativas internacionales, como la Ley de Privacidad del Consumidor de California (CCPA), exigen que las empresas cumplan con estrictos estándares de privacidad y protección de datos. Cumplir con estas normativas no solo es legalmente necesario, sino también una práctica ética.
-
-
-    p(data-aos="fade-left").mb-5 A medida que la tecnología avanza a un ritmo acelerado, surgen nuevos desafíos éticos que las sociedades deben abordar. Estos desafíos no solo involucran las tecnologías emergentes, sino también el impacto de las innovaciones tecnológicas en la estructura social, la economía global y la vida cotidiana. Es por esto que  los desarrolladores, las empresas y los gobiernos deben  trabajar de manera conjunta para anticipar y mitigar los riesgos asociados con el desarrollo y la implementación de nuevas tecnologías. 
-
-    .row.mb-5
-      .col-lg-5.order-lg-2
-        figure
-          img(src="@/assets/curso/tema3/9.png", data-aos="zoom-in").mb-4.mb-lg-0
-      .col-lg-7.order-lg-1
-        .bg-color-1.p-4(data-aos="fade-left").mb-4
-          .row.align-items-center
-            .col-lg-auto
-              img(src="@/assets/curso/tema3/8.svg", style="max-width: 90px").mx-auto
-            .col-lg
-              p.mb-0 Entre los principales retos éticos emergentes, destacan la inteligencia artificial (IA), la automatización, las tecnologías biológicas y la privacidad digital. 
-
-        p(data-aos="fade-left") Uno de los desafíos más significativos en la ética tecnológica, es la implementación de la inteligencia artificial (IA) y la automatización. A medida que estas tecnologías se vuelven más sofisticadas, se generan preocupaciones sobre su impacto en el empleo y las relaciones laborales. La IA tiene el potencial de reemplazar una amplia gama de trabajos, lo que podría conducir a la exclusión económica de ciertos grupos y a un aumento de la desigualdad social. Además, los algoritmos de IA pueden estar sesgados, reproduciendo o incluso, amplificando prejuicios sociales ya existentes, lo que plantea un dilema ético sobre la justicia y la equidad en su aplicación (Binns, 2018). 
-
-
-    .row.mb-5
-      .col-lg-5
-        figure
-          img(src="@/assets/curso/tema3/10.png", data-aos="zoom-in").mt-4.mt-lg-0
-      .col-lg-7
-        p(data-aos="fade-right").mb-3 La automatización plantea otro conjunto de preocupaciones éticas, especialmente en términos de responsabilidad:
-        ol.lista-ol--cuadro(data-aos="fade-up").mb-3
-          li 
-            .lista-ol--cuadro__vineta
-              span 1
-            | ¿Quién es responsable cuando una máquina comete un error que tiene consecuencias graves?
-          li 
-            .lista-ol--cuadro__vineta
-              span 2
-            | ¿Cómo se distribuyen los beneficios de la automatización entre las empresas, los trabajadores y la sociedad en general?
+        ul.lista-ul
+          li.text-bold 
+            i.lista-ul__vineta
+            | Inspección:
+          li
+            ul
+              li.mb-0
+                i.lista-ul__vineta
+                | Total de inspecciones: 15
+              li.mb-0
+                i.lista-ul__vineta
+                | Costo por inspección: $5,000 ÷ 15 = $333.33
+              li.mb-0
+                i.lista-ul__vineta
+                | Producto A (5 inspecciones): 5×333.33=1,666.675 \times 333.33 = 1,666.675×333.33=1,666.67
+              li.mb-0
+                i.lista-ul__vineta
+                | Producto B (10 inspecciones): 10×333.33=3,333.3310 \times 333.33 = 3,333.3310×333.33=3,333.33
         
-        p(data-aos="fade-left").mb-0 Estos problemas requieren una reflexión ética profunda y un marco regulatorio claro, para evitar la explotación y garantizar una transición laboral justa.
+        ul.lista-ul
+          li.text-bold 
+            i.lista-ul__vineta
+            | Empaque:
+          li
+            ul
+              li.mb-0
+                i.lista-ul__vineta
+                | Total de lotes: 8
+              li.mb-0
+                i.lista-ul__vineta
+                | Costo por lote: $3,000 ÷ 8 = $375
+              li.mb-0
+                i.lista-ul__vineta
+                | Producto A (3 lotes): 3×375=1,1253 \times 375 = 1,1253×375=1,125
+              li.mb-0
+                i.lista-ul__vineta
+                | Producto B (5 lotes): 5×375=1,8755 \times 375 = 1,8755×375=1,875
 
+        .titulo-figura.mb-4
+          h5 Tabla 4. 
+          span Distribución total de costos por producto
+        
+        .row 
+          .col-lg-8
+            .tabla-a.color-terciario.mb-5 
+              table
+                thead
+                  tr
+                    th.bg-color-5 Producto
+                    th.bg-color-5 Costo de inspección ($)
+                    th.bg-color-5 Costo de empaquetado ($)
+                    th.bg-color-5 Total ($)
+                tbody
+                  tr.bg-color-6
+                    td Producto A
+                    td 1,666.67
+                    td 1,125
+                    td 2,791.67
+                    
+                  tr.bg-color-6
+                    td Producto B
+                    td 3,333.33
+                    td 1,875
+                    td 5,208.33
+        
+        p.text-bold Resumen:
 
-    p(data-aos="fade-left").mb-4 Para abordar estos desafíos éticos, es esencial una colaboración interdisciplinaria entre científicos, ingenieros, filósofos, sociólogos, economistas y otros expertos. La ética en la tecnología no puede ser una preocupación solo de los tecnólogos; debe involucrar a todos los sectores de la sociedad, incluidas las comunidades afectadas por la innovación tecnológica.
+        p ●	<b>Producto A:</b> Total de costos = <b>$2,791.67</b>
+        p ●	<b>Producto B:</b> Total de costos = <b>$5,208.33</b>
 
+        p Este ejemplo ilustra cómo el método de <b>Costeo Basado en Actividades (ABC)</b> asigna los costos de manera más precisa al utilizar <em>cost drivers</em>, para actividades específicas.
+ 
+          
+    #t_3_2.titulo-segundo(data-aos="flip-up").mt-5
+      h2 #[span 3.2] Costeo por órdenes de trabajo (o por órdenes específicas)
 
-    .row.mb-5
-      .col-lg-7
+    p(data-aos="fade-left").mb-4 Este método se utiliza cuando la producción de bienes o servicios es por lotes o, según pedidos específicos de los clientes. Se acumulan los costos directos (materiales, mano de obra, etc.) y los costos indirectos (como la depreciación de maquinaria o energía), para cada orden de trabajo, de manera individual. Es común en industrias como la fabricación a medida, construcción o proyectos específicos.
 
-        .bg-color-1.p-4(data-aos="fade-left").mb-4
-          p(data-aos="fade-left").mb-0 Para finalizar, es importante reconocer que el futuro de la ética en la tecnología depende de cómo se aborden los desafíos emergentes y cómo se establece un compromiso global hacia un desarrollo tecnológico responsable.
+    .row.justify-content-center.align-items-stretch.mb-5
+      .col-lg-6.mb-4(data-aos="zoom-in-up")
+        .custom-image-card-2.h-100
+          img.custom-image-card__image(src="@/assets/curso/tema3/2.png" alt="")
+          .custom-image-card__text.p-4
+            h5.mb-2.text-center Ventajas	
+            p.mb-0 Facilita el cálculo de costos específicos por cada orden, lo que es útil para personalizar el precio, según las características de cada trabajo.
+      .col-lg-6.mb-4(data-aos="zoom-in-down")
+        .custom-image-card-2.h-100
+          img.custom-image-card__image(src="@/assets/curso/tema3/3.png" alt="")
+          .custom-image-card__text.p-4
+            h5.mb-2.text-center Desventajas		
+            p.mb-0 Requiere una buena organización para asignar correctamente, los costos a cada orden, lo que puede ser costoso y complejo.
+    
+    p.mb-5 A través de un ejemplo práctico, se mostrará cómo se asignan materiales, mano de obra y costos indirectos, a una orden de trabajo, lo que contribuye a una gestión más precisa y a una mejor toma de decisiones en la producción.
 
-        p(data-aos="fade-left") La innovación debe estar alineada con principios éticos que garanticen la equidad, la sostenibilidad y el respeto por los derechos humanos, mientras que la colaboración interdisciplinaria será clave para crear soluciones que beneficien a la sociedad en su conjunto.
+    .bg-full-width.bg-color-2
+      .px-4.px-md-5.pb-md-3.pt-md-5
 
-      .col-lg-5
-        figure
-          img(src="@/assets/curso/tema3/11.png", data-aos="zoom-in")
+        h2 Ejemplo de costeo por órdenes de trabajo
+        p En este ejemplo, una empresa produce <b>10 mesas</b> y <b>15 sillas</b>, acumulando los costos en órdenes de trabajo específicas.
+
+        .titulo-figura.mb-4
+          h5 Tabla 5. 
+          span Costos directos
+        .row.mb-5
+          .col-lg-7
+            .tabla-a.color-terciario.mb-5 
+              table
+                thead
+                  tr
+                    th.bg-color-5 Concepto
+                    th.bg-color-5 Cálculo
+                    th.bg-color-5 Costo total ($)
+                tbody
+                  tr.bg-color-6
+                    td(rowspan="2") <b>Mesas</b>
+                    td Materiales: 10 x $100
+                    td $1,000
+                  tr.bg-color-6
+                    td Mano de obra: 10 x $50
+                    td $500
+                  tr.bg-color-6
+                    td(rowspan="2") <b>Sillas</b>
+                    td Materiales: 15 x $50
+                    td $750
+                  tr.bg-color-6
+                    td Mano de obra: 15 x $30
+                    td $450
+
+        h2 Costos indirectos
+
+        p Los costos indirectos de $1,000 se asignan en función de las horas de trabajo.
+
+        ul.lista-ul
+          li
+            i.lista-ul__vineta
+            | Total de horas trabajadas: <b>100 horas</b>
+          li
+            ul
+              li.mb-0
+                i.lista-ul__vineta
+                | Mesas: <b>60 horas</b> → Proporción: 60/100=0.6060 / 100 = 0.6060/100=0.60
+              li.mb-0
+                i.lista-ul__vineta
+                | Sillas: <b>40 horas</b> → Proporción: 40/100=0.4040 / 100 = 0.4040/100=0.40
+
+        .titulo-figura.mb-4
+          h5 Tabla 6. 
+          span Costos indirectos
+        
+        .row 
+          .col-lg-10
+            .tabla-a.color-terciario.mb-5 
+              table
+                thead
+                  tr
+                    th.bg-color-5 Orden
+                    th.bg-color-5 Proporción de horas
+                    th.bg-color-5 Asignación costos indirectos ($)
+                tbody
+                  tr.bg-color-6
+                    td <b>Mesas</b>
+                    td 0.60
+                    td 0.60×1,000=6000.60 \times 1,000 = 6000.60×1,000=600
+                    
+                    
+                  tr.bg-color-6
+                    td <b>Sillas</b>
+                    td 0.40
+                    td 0.40×1,000=4000.40 \times 1,000 = 4000.40×1,000=400
+
+        .titulo-figura.mb-4
+          h5 Tabla 7. 
+          span Cálculo del costo total por orden
+        
+        .row 
+          .col-lg-10
+            .tabla-a.color-terciario.mb-5 
+              table
+                thead
+                  tr
+                    th.bg-color-5 Orden
+                    th.bg-color-5 Costos directos ($)
+                    th.bg-color-5 Costos indirectos ($)
+                    th.bg-color-5 Costo total ($)
+                tbody
+                  tr.bg-color-6
+                    td <b>Orden 1 (mesas)</b>
+                    td 1,500
+                    td 600
+                    td 2,100
+                    
+                    
+                  tr.bg-color-6
+                    td <b>Orden 2 (sillas)</b>
+                    td 1,200
+                    td 400
+                    td 1,600         
+        
+        p.text-bold Resultado final:
+
+        p.text-bold ●	Orden 1 (mesas): $2,100
+        p.text-bold ●	Orden 2 (sillas): $1,600
+
+        p Este ejemplo refleja cómo se asignan los costos directos e indirectos en el <b>costeo por órdenes de trabajo</b>, permitiendo un control preciso sobre cada producción.
+
+    p.mt-5 Los métodos de acumulación de costos, son sistemas que permiten registrar y asignar los costos incurridos en la producción de bienes o servicios. Dependiendo de las características del proceso productivo, se pueden aplicar distintos métodos, como el costeo por órdenes de trabajo, ideal para productos personalizados, o el costeo por procesos, utilizado en producciones masivas y estandarizadas. 
+    
+    .bg-full-width.bg-color-9
+      .px-4.px-md-5.pb-md-3.pt-md-5
+        .row.mb-5.align-items-center
+          .col-lg-7
+            h2 Métodos de acumulación de costos
+            p Se invita a analizar los diferentes <b>métodos de acumulación de costos</b>, herramientas esenciales para la gestión eficiente de recursos en proyectos o empresas. El documento expone cómo el costeo por procesos, el costeo variable, el costeo absorbente y el costeo estándar, ofrecen enfoques adaptados a distintas necesidades de producción y control financiero. A través de ejemplos prácticos, se presentan las ventajas, desventajas y su impacto en la planificación empresarial, facilitando su comprensión y aplicación en contextos reales. Este análisis permitirá profundizar en las bases del control de costos y la optimización de recursos.
+
+            .bg-color-white.shadow-soft.py-3.px-lg-4
+              .row.justify-content-around.align-items-center
+                .col-md-auto
+                  img(src="@/assets/template/bg-icono-pdf.svg", style="width: 45px;")
+                .col
+                  .row.justify-content-between.align-items-center
+                    .col.mb-3.mb-sm-0
+                      p.text-small <b>Anexo.</b> Métodos de acumulación de costos
+                    .col-sm-auto
+                      a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                        span.text-small Descargar
+                        i.fas.fa-arrow-right
+          .col-lg-5
+            figure
+              img(src='@/assets/curso/tema3/4.png', alt='')
+      
 
     .bg-full-width.border-top.color-primario
       .p-4.p-md-5

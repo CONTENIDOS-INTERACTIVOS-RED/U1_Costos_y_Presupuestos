@@ -17,29 +17,31 @@
 
 .bg-color
   &-1
-    background-color: #EAF8FD
+    background-color: #FBEADF
   &-2
-    background-color: #FFFBE8
+    background-color: #E4F2F4
   &-3
-    background-color: #F0E9F6
+    background-color: #ECFCF6
   &-4
-    background-color: #EAF8FD
+    background-color: #E5F8F8
   &-5
-    background-color: #FFFBE8
+    background-color: #EE9865 !important
   &-6
-    background-color: #E3F3F4
-    
+    background-color: #FBEADF !important
   &-7
-    background-color: #FFF8D5
+    background-color: #00282E
   &-8
-    background-color: #EBF6FB
-
+    background-color: #FEF8E7
+  &-9
+    background-color: #FDF4EE
   &-info
     background-color: #E8EEFD
   &-sintesis
     background-color: #F9F9F9
   &-white
     background-color: #fff
+
+
 
 .border-top
   &.color-primario
@@ -61,13 +63,13 @@
 
 .bg-fondo
   &-1
-    background-image: url("../assets/bg/bg1.png") !important
+    background-image: url("../assets/bg/bg1.svg") !important
     background-position: top
   &-2
     // background-image: url("../assets/bg/bg2.png") !important
     background-position: bottom
   &-slider
-    background-image: url("../assets/bg/bg-slider.png") !important
+    background-image: url("../assets/bg/bg2.svg") !important
     background-position: bottom
 
 // Variables
@@ -107,15 +109,15 @@ $custom-card-img-height: 322px
 
 
 .acordion__header
-  background-color: lighten($color-acento-contenido, 25%) !important
+  background-color: lighten(#A4F1D6, 10%) !important
 
 .acordion__header--active
-  background-color: $color-acento-contenido !important
+  background-color: #A4F1D6 !important
   h4, i
     color: #000 !important
 
 .acordion__contenido
-  background-color: lighten($color-acento-contenido, 27%) !important
+  background-color: lighten(#A4F1D6, 15%) !important
 
 
 .anexo__texto
@@ -153,7 +155,7 @@ $custom-card-img-height: 322px
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 10px 15px rgba(0, 0, 0, 0.05)
 
 .tabs-content
-  background-color: #F4F4F4
+  background-color: #E4F2F4 !important
 
 .material-complementario
   p,a
@@ -210,3 +212,8 @@ $custom-card-img-height: 322px
     border-left: 0px
   .fa-angle-up, .fa-angle-down
     display: block
+  
+.tabs-c__tab--active
+    border-bottom-color: #00282E !important
+    &:before
+      border-top-color: $color-acento-botones
