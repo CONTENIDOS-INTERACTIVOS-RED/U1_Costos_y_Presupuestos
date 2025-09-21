@@ -48,8 +48,8 @@
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/tema2/3.png', alt='')
     
-    #t_2_1.titulo-segundo(data-aos="flip-up")
-      h2 #[span 2.1] Clasificación de costos, según su aplicación
+    #t_2_2.titulo-segundo(data-aos="flip-up")
+      h2 #[span 2.2] Clasificación de costos, según su aplicación
 
     p.mb-5 Según su relación directa o indirecta con el producto, los costos se clasifican en <b>costos directos y costos indirectos.</b>
 
@@ -105,9 +105,6 @@
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
               a(href="https://elibro.net/es/ereader/tecnologicadeloriente/116368?page=39" target="_blank" rel="noopener noreferrer") Cárdenas y Nápoles, R. A. (2016). Costos 1. Instituto Mexicano de Contadores Públicos.  
 
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.contabilidadfinanciera.com/clasificacion-costos" target="_blank" rel="noopener noreferrer") ContabilidadFinanciera.com. (s.f.). Clasificación de los costos según su comportamiento. 
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
